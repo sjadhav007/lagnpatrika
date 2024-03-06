@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GoogleImagesComponent } from './components/google-images/google-images.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GoogleImagesComponent
   ],
   imports: [
     BrowserModule,
