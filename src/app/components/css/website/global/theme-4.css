@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'FontContent';
+    src: url('../../font/fonts/InknutAntiqua-SemiBold.woff2');
+}
+
+:root {
+   
+    --text-color-1: #e8cc53;
+    --text-color-2: #C89F30;
+    --text-color-3: #757575;
+    --img-border-color: #a8701b;
+    --nav-bg-color: #9E0B1D;
+    --nav-collapse-color: #ffffff;
+    --nav-border-color: rgba(0, 0, 0, 0.1);
+    --nav-font-color: #e8cc53;
+    --footer-bg-color: #9E0B1D;
+    --couple-name-font-size: 40px;
+    --rsvp-submit-color: #ffffff;
+    --rsvp-placeholder-color: #ffffff;
+    --wedding-content-font-size: 20px;
+    --event-desc-bg: #ffffff;
+    --time-line-divider: #9E0B1D;
+    --virtual-button-color: #e8cc53;
+    --count-down-bg: #ffaeae1f;
+    
+    /*
+    --text-color-1: #b30000;   
+    --text-color-2: #ffd700;   
+    --text-color-3: #010207;   
+    --img-border-color: hsl(220, 75%, 2%); 
+    --nav-bg-color: hsl(0, 100%, 50%);
+    --nav-collapse-color: #b30000;
+    --nav-border-color: rgba(0, 0, 0, 0.1);
+    --nav-font-color: hsl(240, 5%, 4%);
+    --footer-bg-color: hsl(4, 100%, 50%);
+    --couple-name-font-size: 40px;
+    --rsvp-submit-color: #4169e1;
+    --rsvp-placeholder-color: #a9a9a9;
+    --wedding-content-font-size: 20px;
+    --event-desc-bg: hsl(32, 100%, 66%);
+    --time-line-divider: #4169e1; 
+    --virtual-button-color: #4169e1;
+    --count-down-bg: #030505;
+    --rsvp-background-color: #4169e1;
+    --rsvp-checkbox-color: #ffd700;
+    --guestbook-color: #4169e1; 
+    --guestbook-background-color: #ffffff; 
+    --count-down-bg: #ffaeae1f;
+    */
+    --couple-name-font: 'FontContent';
+    --date-venue-font: 'FontContent', sans-serif;
+    --section-title-font: 'FontContent';
+    --our-story-font: roboto;
+    --event-title-font: "FontContent", serif;
+    --section-content-font: 'FontContent', sans-serif;
+    --section-content-font-2: 'FontContent', sans-serif;
+    --time-line-dot: url("../../images/dot/dot-4.png");
+    --body-background: url('../../images/background/background-4.png');
+    --banner-image: url('../../images/family/couple.jpeg');
+    --divider-image: url('../../images/divider/divider-img-4.png');
+    --frame-left-top: url("../../images/frames/c89f30/left-top.png");
+    --frame-right-top: url("../../images/frames/c89f30/right-top.png");
+    --frame-left-bottom: url("../../images/frames/c89f30/left-bottom.png");
+    --frame-right-bottom: url("../../images/frames/c89f30/right-bottom.png");
+    --rsvp-frame-left-top: url("../../images/frames/ffffff/left-top.png");
+    --rsvp-frame-right-top: url("../../images/frames/ffffff/right-top.png");
+    --rsvp-frame-left-bottom: url("../../images/frames/ffffff/left-bottom.png");
+    --rsvp-frame-right-bottom: url("../../images/frames/ffffff/right-bottom.png");
+    --guestbk-frame-left-top: url("../../images/frames/ffffff/left-top.png");
+    --guestbk-frame-right-top: url("../../images/frames/ffffff/right-top.png");
+    --guestbk-frame-left-bottom: url("../../images/frames/ffffff/left-bottom.png");
+    --guestbk-frame-right-bottom: url("../../images/frames/ffffff/right-bottom.png");
+    --guestbk-frame-right-bottom: url("../../images/frames/ffffff/right-bottom.png");
+}
+
+.alert-banner {
+    color: #c89f30;
+}
